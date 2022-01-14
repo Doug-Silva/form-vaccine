@@ -1,13 +1,13 @@
 /* Formatação do Form */
-.format{
-    border:solid 5px rgba(47, 79, 79, 0.8);
+.format {
+    border: solid 5px rgba(47, 79, 79, 0.8);
     padding: 5px;
-    text-align:justify;
+    text-align: justify;
     background-color: #effcfc;
-    width: 678px; 
-    position: relative; 
-    left: 50%; 
-    margin-left: -500px; 
+    width: 678px;
+    position: relative;
+    left: 50%;
+    margin-left: -500px;
 }
 
 /* Todos os elementos da página */
@@ -20,17 +20,17 @@
 #titulo {
     font-family: sans-serif;
     color: #000000;
-    text-align:center;
-} 
+    text-align: center;
+}
 
 /* Elementos com o ID "subtitulo" */
 #subtitulo {
     font-family: sans-serif;
     color: #000000;
-    text-align:center;
-} 
+    text-align: center;
+}
 
-#check{
+#check {
     display: inline-block;
 }
 
@@ -40,7 +40,7 @@ fieldset {
 }
 
 /* Elemento de tag <body> */
-body{
+body {
     background-color: #95a2f1;
     font-family: sans-serif;
     font-size: 1em;
@@ -52,7 +52,7 @@ body{
 }
 
 /* Elementos de tags <body>, <input>, <Select>, <button> */
-input, select,button {
+input, select, button {
     font-family: sans-serif;
     font-size: 1em;
     color: #000000;
@@ -83,7 +83,7 @@ input, select,button {
 
 /* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
 fieldset.grupo .campo {
-    float:  left;
+    float: left;
     margin-right: 1em;
 }
 
@@ -91,7 +91,7 @@ fieldset.grupo .campo {
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
     padding: 0.2em;
     border: 1px solid #000000;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     display: block;
 }
 
@@ -114,8 +114,8 @@ fieldset.grupo .campo {
     margin-bottom: 1em;
     color: #ffffff;
     padding: 0.2em 0.6em;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 105%;
     left: 40%;
@@ -131,8 +131,8 @@ fieldset.grupo .campo {
     margin-bottom: 1em;
     color: #ffffff;
     padding: 0.2em 0.6em;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 105%;
     left: 60%;
@@ -155,22 +155,22 @@ fieldset.grupo .campo {
 /* Pseudoclasse (hover) deixa uma cor diferenciada quando o mouse está sobre o botão*/
 .botao1:hover {
     background: #CCBBFF;
-    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: none;
 }
 
 .botao2:hover {
     background: #ffbbbb;
-    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: none;
 }
 
 /* Elementos de classe botão e de tag <select> */
 /* Cursor do mouse fica do tipo pointer quando está em frente ao botão*/
-.botao1, select{
+.botao1, select {
     cursor: pointer;
 }
 
-.botao2, select{
+.botao2, select {
     cursor: pointer;
 }

@@ -1,4 +1,4 @@
-function valid_campos(){
+function valid_campos() {
 
 	// buscando os valores do dados que estao no formulario.
 	var campo_nome = formCadastVacina.nome.value;
@@ -15,69 +15,69 @@ function valid_campos(){
 	var campo_hora_atendimento = formCadastVacina.hora_atendimento.value;
 
 	// validacoes
-	if(campo_nome == ""){
+	if (campo_nome == "") {
 		alert("Preencha Campo Nome!!");
 		return false;
 	}
 
-	if(campo_sobrenome == ""){
+	if (campo_sobrenome == "") {
 		alert("Preencha Campo Sobrenome!!");
 		return false;
 	}
 
-	if(campo_email == ""){
+	if (campo_email == "") {
 		alert("Preencha Campo Email!!");
 		return false;
 	}
 
-	if(campo_celular == ""){
+	if (campo_celular == "") {
 		alert("Preencha Campo Celular!!");
 		return false;
 	}
 
-	if(campo_data_nascimento == ""){
+	if (campo_data_nascimento == "") {
 		alert("Preencha Campo Data de nascimento!!");
 		return false;
 	}
 
-	if(campo_cep == ""){
+	if (campo_cep == "") {
 		alert("Preencha Campo CEP!!");
 		return false;
 	}
 
-	if(campo_genero == ""){
+	if (campo_genero == "") {
 		alert("Preencha Campo Gênero!!");
 		return false;
 	}
 
-	if(campo_sua_etnia == ""){
+	if (campo_sua_etnia == "") {
 		alert("Preencha Campo Sua Etnia!!");
 		return false;
 	}
 
-	if(campo_altura == ""){
+	if (campo_altura == "") {
 		alert("Preencha Campo Altura (cm)!!");
 		return false;
 	}
 
-	if(campo_peso == ""){
+	if (campo_peso == "") {
 		alert("Preencha Campo Peso (Kg)!!");
 		return false;
 	}
 
-	if(campo_data_agendamento == ""){
+	if (campo_data_agendamento == "") {
 		alert("Preencha A data do seu agendamento!!");
 		return false;
 	}
 
-	if(campo_hora_atendimento == ""){
+	if (campo_hora_atendimento == "") {
 		alert("Preencha O horário do seu atendimento!!");
 		return false;
 	}
 
-	else{
+	else {
 		alert("Seu agendamento foi efetuado com sucesso!!");
 		return true;
 	}
-		
+
 }
