@@ -1,7 +1,7 @@
 <h1 align="center">
 <span id='voltar-topo'></span>
 <br>
-  <img src="logo-projeto.jpg" alt="Logo do projeto" height="140" width="260">
+  <img src="IMAGENS/logo-projeto.jpg" alt="Logo do projeto" height="140" width="260">
 <br>
 <br>
 Formulário de Vacinação
@@ -17,7 +17,7 @@ Formulário de Vacinação
 
 [//]: # (Adicionar os gifs/imagens aqui:)
 <div align="center">
-  <img src="tela-inicio-projeto.gif" alt="imagem-projeto" height="425">
+  <img src="IMAGENS/tela-inicio-projeto.gif" alt="imagem-projeto" height="425">
 </div>
 
 <hr />
