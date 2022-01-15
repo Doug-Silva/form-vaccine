@@ -1,83 +1,96 @@
+// noinspection EqualityComparisonWithCoercionJS
+
+/* Função Validar */
 function valid_campos() {
 
-	// buscando os valores do dados que estao no formulario.
-	var campo_nome = formCadastVacina.nome.value;
-	var campo_sobrenome = formCadastVacina.sobrenome.value;
-	var campo_email = formCadastVacina.email.value;
-	var campo_celular = formCadastVacina.celular.value;
-	var campo_data_nascimento = formCadastVacina.data_nascimento.value;
-	var campo_cep = formCadastVacina.cep.value;
-	var campo_genero = formCadastVacina.genero.value;
-	var campo_sua_etnia = formCadastVacina.sua_etnia.value;
-	var campo_altura = formCadastVacina.altura.value;
-	var campo_peso = formCadastVacina.peso.value;
-	var campo_data_agendamento = formCadastVacina.data_agendamento.value;
-	var campo_hora_atendimento = formCadastVacina.hora_atendimento.value;
+    // buscando os valores do dados que estao no formulario.
+    let campo_nome = document.getElementById("nome");
+    let campo_sobrenome = document.getElementById("sobrenome");
+    let campo_email = document.getElementById("email");
+    let campo_celular = document.getElementById("celular");
+    let campo_data_nascimento = document.getElementById("datNasc");
+    let campo_cep = document.getElementById("cep");
+    let campo_genero = document.getElementById("genero");
+    let campo_sua_etnia = document.getElementById("etnia");
+    let campo_altura = document.getElementById("altura");
+    let campo_peso = document.getElementById("peso");
+    let campo_data_agendamento = document.getElementById("agendamento");
+    let campo_hora_atendimento = document.getElementById("horaAt");
 
-	// validacoes
-	if (campo_nome == "") {
-		alert("Preencha Campo Nome!!");
-		return false;
-	}
+    // validacoes
+    if (campo_nome.value == "") {
+        alert("Preencha Campo Nome!!");
+        campo_nome.focus();
+        return false;
+    }
 
-	if (campo_sobrenome == "") {
-		alert("Preencha Campo Sobrenome!!");
-		return false;
-	}
+    if (campo_sobrenome.value == "") {
+        alert("Preencha Campo Sobrenome!!");
+        campo_sobrenome.focus();
+        return false;
+    }
 
-	if (campo_email == "") {
-		alert("Preencha Campo Email!!");
-		return false;
-	}
+    if (campo_email.value == "") {
+        alert("Preencha Campo Email!!");
+        campo_email.focus();
+        return false;
+    }
 
-	if (campo_celular == "") {
-		alert("Preencha Campo Celular!!");
-		return false;
-	}
+    if (campo_celular.value == "") {
+        alert("Preencha Campo Celular!!");
+        campo_celular.focus();
+        return false;
+    }
 
-	if (campo_data_nascimento == "") {
-		alert("Preencha Campo Data de nascimento!!");
-		return false;
-	}
+    if (campo_data_nascimento.value == "") {
+        alert("Preencha Campo Data de nascimento!!");
+        campo_data_nascimento.focus();
+        return false;
+    }
 
-	if (campo_cep == "") {
-		alert("Preencha Campo CEP!!");
-		return false;
-	}
+    if (campo_cep.value == "") {
+        alert("Preencha Campo CEP!!");
+        campo_cep.focus();
+        return false;
+    }
 
-	if (campo_genero == "") {
-		alert("Preencha Campo Gênero!!");
-		return false;
-	}
+    if (campo_genero.value == "") {
+        alert("Preencha Campo Gênero!!");
+        campo_genero.focus();
+        return false;
+    }
 
-	if (campo_sua_etnia == "") {
-		alert("Preencha Campo Sua Etnia!!");
-		return false;
-	}
+    if (campo_sua_etnia.value == "") {
+        alert("Preencha Campo Sua Etnia!!");
+        campo_sua_etnia.focus();
+        return false;
+    }
 
-	if (campo_altura == "") {
-		alert("Preencha Campo Altura (cm)!!");
-		return false;
-	}
+    if (campo_altura.value == "") {
+        alert("Preencha Campo Altura (cm)!!");
+        campo_altura.focus();
+        return false;
+    }
 
-	if (campo_peso == "") {
-		alert("Preencha Campo Peso (Kg)!!");
-		return false;
-	}
+    if (campo_peso.value == "") {
+        alert("Preencha Campo Peso (Kg)!!");
+        campo_peso.focus();
+        return false;
+    }
 
-	if (campo_data_agendamento == "") {
-		alert("Preencha A data do seu agendamento!!");
-		return false;
-	}
+    if (campo_data_agendamento.value == "") {
+        alert("Preencha A data do seu agendamento!!");
+        campo_data_agendamento.focus();
+        return false;
+    }
 
-	if (campo_hora_atendimento == "") {
-		alert("Preencha O horário do seu atendimento!!");
-		return false;
-	}
+    if (campo_hora_atendimento.value == "") {
+        alert("Preencha O horário do seu atendimento!!");
+        campo_hora_atendimento.focus();
+        return false;
 
-	else {
-		alert("Seu agendamento foi efetuado com sucesso!!");
-		return true;
-	}
-
+    } else {
+        alert("Formulário enviado!");
+        return true;
+    }
 }
