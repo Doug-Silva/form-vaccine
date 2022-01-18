@@ -4,17 +4,20 @@
     <head>
         <!-- Metadados -->
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- CSS -->
-        <link rel="stylesheet" type="text/css" href="CSS/style_form.css" media="screen">
-
-        <!-- Javascript -->
-        <script type="text/javascript" src="JAVASCRIPT/validate.js"></script>
 
         <!-- Título da página -->
         <title>Vacinação COVID-19</title>
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+        <!-- Javascript -->
+        <script src="JAVASCRIPT/validate.js"></script>
+
     </head>
 
     <body>
@@ -23,13 +26,12 @@
         <form class="format" name="formCadastVacina" action="PHP/salvar_agendamento.php" method="post">
 
             <div>
-                <h1 id="titulo">Agendamento de Vacinação COVID-19</h1>
-                <h2 class="subtitulo">Complete suas informações</h2><br>
+                <h1 id="titulo">Agendamento de Vacinação COVID-19</h1><br>
+                <h3 class="subtitulo">Complete suas informações</h3><br>
             </div>
 
             <!-- Campos dados do usuario -->
             <fieldset class="grupo">
-
                 <div class="campo">
                     <label for="nome"><strong>Nome</strong></label>
                     <input type="text" class="txtbox" name="nome" id="nome" placeholder="Insira seu nome">
@@ -41,7 +43,7 @@
                 </div>
 
                 <div class="campo">
-                    <label for="email"><strong>Email</strong></label>
+                    <label for="email"><strong>E-mail</strong></label>
                     <input type="email" class="txtbox" name="email" id="email" placeholder="exemplo@exemplo">
                 </div>
 
@@ -62,12 +64,12 @@
 
                 <div class="campo">
                     <label for="altura"><strong>Altura</strong></label>
-                    <input type="text" class="txtbox" name="altura" id="altura" placeholder="Digite sua altura (cm)">
+                    <input type="text" class="txtbox" name="altura" id="altura" placeholder="Insira sua altura (cm)">
                 </div>
 
                 <div class="campo">
                     <label for="peso"><strong>Peso</strong></label>
-                    <input type="text" class="txtbox" name="peso" id="peso" placeholder="Digite seu peso (kg)">
+                    <input type="text" class="txtbox" name="peso" id="peso" placeholder="Insira seu peso (kg)">
                 </div>
 
                 <div class="campo">
@@ -80,7 +82,7 @@
                 </div>
 
                 <div class="campo">
-                    <label for="etnia"><strong>Sua etnia</strong></label>
+                    <label for="etnia"><strong>Etnia</strong></label>
                     <select id="etnia" name="sua_etnia">
                         <option selected disabled value="">Selecione</option>
                         <option>Indígena</option>
@@ -89,68 +91,69 @@
                         <option>Branco</option>
                     </select>
                 </div>
-
             </fieldset><br>
 
-            <!-- Campo do questionário com (radio button) -->
             <div>
                 <h3 class="subtitulo">Questionário</h3><br>
             </div>
 
-            <div class="campo">
-                <label><strong>Você está atualmente empregado?</strong></label>
-                <label>
-                    <input type="radio" name="pergunta1" value="Sim" checked> Sim, estou empregado
-                </label>
-                <label>
-                    <input type="radio" name="pergunta1" value="Não"> Atualmente estou desempregado
-                </label>
-            </div>
+            <!-- Campos do questionario -->
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label><strong>Está atualmente empregado?</strong></label>
+                    <label>
+                        <input type="radio" name="pergunta1" value="Empregado" checked> Sim, estou empregado
+                    </label>
+                    <label>
+                        <input type="radio" name="pergunta1" value="Desempregado"> Atualmente estou desempregado
+                    </label>
+                </div>
 
-            <div class="campo">
-                <label><strong>Quantas pessoas vivem na sua residência? (incluindo você)</strong></label>
-                <label>
-                    <input type="radio" name="pergunta2" value="Moro sozinho" checked> Eu moro sozinho
-                </label>
-                <label>
-                    <input type="radio" name="pergunta2" value="2 Pessoas"> 2 Pessoas
-                </label>
-                <label>
-                    <input type="radio" name="pergunta2" value="2-4 Pessoas"> 2-4 Pessoas
-                </label>
-                <label>
-                    <input type="radio" name="pergunta2" value="Mais de 4 Pessoas"> Mais de 4 Pessoas
-                </label>
-            </div>
+                <div class="campo">
+                    <label><strong>Quantas pessoas vivem na sua residência? (Incluindo você)</strong></label>
+                    <label>
+                        <input type="radio" name="pergunta2" value="Moro sozinho" checked> Eu moro sozinho
+                    </label>
+                    <label>
+                        <input type="radio" name="pergunta2" value="2 Pessoas"> 2 Pessoas
+                    </label>
+                    <label>
+                        <input type="radio" name="pergunta2" value="2-5 Pessoas"> 2-5 Pessoas
+                    </label>
+                    <label>
+                        <input type="radio" name="pergunta2" value="Mais de 5 Pessoas"> Mais de 5 Pessoas
+                    </label>
+                </div>
 
-            <div class="campo">
-                <label><strong>Alguém na sua residência tem mais de 64 anos?</strong></label>
-                <label>
-                    <input type="radio" name="pergunta3" value="Sim" checked> Sim, na minha residência tem pessoas com mais
-                    de 64 anos
-                </label>
-                <label>
-                    <input type="radio" name="pergunta3" value="Não"> Não há ninguém com mais de 64 anos
-                </label>
-            </div>
+                <div class="campo">
+                    <label><strong>Alguém na sua residência tem mais de 64 anos?</strong></label>
+                    <label>
+                        <input type="radio" name="pergunta3" value="Sim" checked> Sim
+                    </label>
+                    <label>
+                        <input type="radio" name="pergunta3" value="Não"> Não há ninguém com mais de 64 anos
+                    </label>
+                </div>
 
-            <div class="campo">
-                <label><strong>Alguém na sua residência frequenta escola ou a creche?</strong></label>
-                <label>
-                    <input type="radio" name="pergunta4" value="Sim" checked> Sim
-                </label>
-                <label>
-                    <input type="radio" name="pergunta4" value="Não"> Não
-                </label>
-            </div>
+                <div class="campo">
+                    <label><strong>Alguém na sua residência frequenta escola ou creche?</strong></label>
+                    <label>
+                        <input type="radio" name="pergunta4" value="Sim" checked> Sim
+                    </label>
+                    <label>
+                        <input type="radio" name="pergunta4" value="Não"> Não
+                    </label>
+                </div>
+            </fieldset><br>
 
             <div>
                 <h3 class="subtitulo">Agendamento de Vacinação</h3><br>
             </div>
 
+            <!-- Campos do agendamento -->
             <fieldset class="grupo">
                 <div class="campo">
-                    <label for="agendamento"><strong>Data do Agendamento</strong></label>
+                    <label for="agendamento"><strong>Data do agendamento</strong></label>
                     <input class="txtbox" type="date" name="data_agendamento" id="agendamento" placeholder="Insira a data">
                 </div>
 
@@ -164,9 +167,10 @@
             <button class="botao1" type="submit" onclick="return valid_campos()">Enviar</button>
             <button class="botao2" type="reset">Apagar</button>
 
+            <!-- Div com a imagem para abrir a lista de agendamentos -->
             <div>
                 <a href="PHP/listar_agendamento.php" target="_blank">
-                    <img class="botao3" width="100" height="100" src="IMAGENS/busca_lista.jpg" alt="lista"></a>
+                <img class="botao3" width="100" height="100" src="IMAGENS/busca_lista.jpg" alt="lista"></a>
             </div>
 
         </form>

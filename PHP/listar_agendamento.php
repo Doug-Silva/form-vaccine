@@ -37,20 +37,20 @@
 						<th>ID</th>
 						<th>Nome</th>
 						<th>Sobrenome</th>
-						<th>Email</th>
+						<th>E-mail</th>
 						<th>Celular</th>
-						<th>Dat.Nascimento</th>
+						<th>Data Nasc.</th>
 						<th>CEP</th>
 						<th>Gênero</th>
 						<th>Etnia</th>
-						<th>Altura(cm)</th>
-						<th>Peso(Kg)</th>
+						<th>Altura</th>
+						<th>Peso</th>
 						<th>Pergunta1</th>
 						<th>Pergunta2</th>
 						<th>Pergunta3</th>
 						<th>Pergunta4</th>
-						<th>Dat.Agendamento</th>
-						<th>Hora.Atendimento</th>
+						<th>Data Agend.</th>
+						<th>Hora Atendi.</th>
 					</tr>
 				</thead>
 				<tbody>

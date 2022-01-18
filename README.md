@@ -16,8 +16,8 @@ Formulário de Vacinação
 </p>
 
 [//]: # (Adicionar os gifs/imagens aqui:)
-<div style="width:30%">
-  <img src="IMAGENS/tela-inicio-projeto.gif" style="width:100%" alt="imagem-projeto">
+<div align="center">
+  <img src="IMAGENS/tela-inicio-projeto.gif" alt="imagem-projeto" height="425">
 </div>
 
 <hr />

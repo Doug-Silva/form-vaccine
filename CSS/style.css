@@ -19,14 +19,14 @@
 
 /* Elementos com o ID "titulo" */
 #titulo {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #000000;
     text-align: center;
 }
 
 /* Elementos com o ID "subtitulo" */
 .subtitulo {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #0000ff;
     text-align: center;
 }
@@ -37,7 +37,7 @@
 
 /* Elementos de tag <fieldset>*/
 fieldset {
-    border: 0;
+    border: 0;            /*mudei essa parte*/
 }
 
 /* Elemento de tag <body> */
@@ -47,7 +47,7 @@ body {
     font-size: 1em;
     color: #000000;
     margin-left: 22%;
-    margin-top: 2%;
+    margin-top: 1%;
     justify-content: center;
     background-image: url("http://localhost/Vaccination_Form/IMAGENS/vacina_c19.jpg");
 }
