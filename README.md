@@ -1,6 +1,5 @@
+<span id='voltar-topo'></span>
 <div align="center">  
-  <span id='voltar-topo'></span>
-  
   <!--Adicionar o logo do projeto aqui:-->
   <div>
     <a href='#voltar-topo'><img src="IMAGENS/logo-projeto.jpg" alt="Logo do projeto" height="140" width="260"></a>
@@ -19,12 +18,12 @@
   </div><hr>  
 </div>
 
-  <!--
-  ## 🚀 Iniciar
-  Escrever aqui>>>
-  -->
+<!--
+## 🚀 Iniciar
+Escrever aqui>>>
+-->
 
-  ## 🔨 Seja um dos contribuidores<br>
-  Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
-  
-  <a href='#voltar-topo'>⬆ Voltar ao topo</a><br>
+## 🔨 Seja um dos contribuidores<br>
+Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
+
+<a href='#voltar-topo'>⬆ Voltar ao topo</a><br>
