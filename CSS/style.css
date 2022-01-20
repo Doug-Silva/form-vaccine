@@ -37,7 +37,7 @@
 
 /* Elementos de tag <fieldset>*/
 fieldset {
-    border: 0;            /*mudei essa parte*/
+    border: 0;
 }
 
 /* Elemento de tag <body> */
@@ -49,7 +49,7 @@ body {
     margin-left: 22%;
     margin-top: 1%;
     justify-content: center;
-    background-image: url("http://localhost/Vaccination_Form/IMAGENS/vacina_c19.jpg");
+    background-image: url("http://localhost/vaccination-form/IMAGENS/vacina_c19.jpg");
 }
 
 /* Elementos de tags <Select> do campo questionario */

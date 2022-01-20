@@ -91,8 +91,8 @@
 
 	<br><br>
 	<div align="center">
-    		<a href="http://localhost/Vaccination_Form" class="botao3" target="_blank">
-    		<img width="100" height="100" src="http://localhost/Vaccination_Form/IMAGENS/busca_lista.jpg"></a>
+    		<a href="http://localhost/vaccination-form" class="botao3" target="_blank">
+    		<img width="100" height="100" src="http://localhost/vaccination-form/IMAGENS/busca_lista.jpg"></a>
     	</div><br>
     	<h6 id="titulo" align="center">Voltar Para A Página Inicial</h6>
 </html>

@@ -60,6 +60,6 @@ include_once "conexao.php";
 
     mysqli_query($conn,$sql);
     mysqli_close($conn);
-    header('Location: http://localhost/Vaccination_Form');
+    header('Location: http://localhost/vaccination-form');
 
 ?>
