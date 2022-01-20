@@ -10,7 +10,7 @@ Formulário de Vacinação
 <p align="center">Formulário online para agendamento de vacinação, desenvolvido em HTML, CSS e Javascript.</p>
 
 <p align="center">
-  <a href="https://github.com/Dougg-ssilva/Vaccination_Form/blob/main/LICENSE">
+  <a href="https://github.com/Doug-Silva/Vaccination_Form/blob/main/LICENSE">
     <img src="https://img.shields.io/npm/l/react" alt="License MIT">
   </a>
 </p>
