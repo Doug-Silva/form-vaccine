@@ -6,7 +6,7 @@
   </div><br>
 
   <h1>Formulário de Vacinação</h1>
-  <p>Formulário online para agendamento de vacinação, desenvolvido em HTML, CSS e JavaScript.</p>
+  <p>Formulário online para agendamento de vacinação, desenvolvido em HTML, CSS e JavaScript</p>
 
   <div>
     <a href="https://github.com/Doug-Silva/vaccination-form/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/react" alt="License MIT"></a>
