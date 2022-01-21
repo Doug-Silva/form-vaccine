@@ -42,14 +42,14 @@ fieldset {
 
 /* Elemento de tag <body> */
 body {
-    background-color: #95a2f1;
+    background-color: #8997eb;
     font-family: sans-serif;
     font-size: 1em;
     color: #000000;
     margin-left: 22%;
     margin-top: 1%;
     justify-content: center;
-    background-image: url("http://localhost/vaccination-form/IMAGENS/vacina_c19.jpg");
+    background-image: url("http://localhost/vaccination-form/assets/img/vacina.jpg");
 }
 
 /* Elementos de tags <Select> do campo questionario */

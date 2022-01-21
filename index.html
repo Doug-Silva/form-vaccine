@@ -13,17 +13,15 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
         <!-- CSS -->
-        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
-        <!-- Javascript -->
-        <script src="JAVASCRIPT/validate.js"></script>
-
+        <!-- JavaScript -->
+        <script src="./assets/js/validate.js"></script>
     </head>
 
     <body>
-
         <!-- PHP (Formulário) -->
-        <form class="format" name="formCadastVacina" action="PHP/salvar_agendamento.php" method="post">
+        <form class="format" name="formCadastVacina" action="./assets/php/salvar-agendamento.php" method="post">
 
             <div>
                 <h1 id="titulo">Agendamento de Vacinação COVID-19</h1><br>
@@ -97,7 +95,7 @@
                 <h3 class="subtitulo">Questionário</h3><br>
             </div>
 
-            <!-- Campos do questionario -->
+            <!-- Campos do questionário -->
             <fieldset class="grupo">
                 <div class="campo">
                     <label><strong>Está atualmente empregado?</strong></label>
@@ -164,17 +162,15 @@
             </fieldset><br>
 
             <!-- Botão para enviar ou apagar o formulário -->
-            <button class="botao1" type="submit" onclick="return valid_campos()">Enviar</button>
+            <button class="botao1" type="submit" onclick="return validar()">Enviar</button>
             <button class="botao2" type="reset">Apagar</button>
 
-            <!-- Div com a imagem para abrir a lista de agendamentos -->
+            <!-- Div com o botão para abrir a lista de agendamentos -->
             <div>
-                <a href="PHP/listar_agendamento.php" target="_blank">
-                <img class="botao3" width="100" height="100" src="IMAGENS/busca_lista.jpg" alt="lista"></a>
+                <a href="./assets/php/listar-agendamento.php" target="_self">
+                <img class="botao3" width="100" height="100" src="./assets/img/busca-lista.jpg" alt="Lista"></a>
             </div>
 
         </form>
-
     </body>
-
 </html>

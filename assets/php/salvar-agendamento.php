@@ -1,11 +1,12 @@
 <?php
-include_once "conexao.php";
+    //incluindo conexao com o banco de dados
+    include_once "conexao.php";
 
     $nome = $_POST["nome"];
     $sobrenome = $_POST["sobrenome"];
     $email = $_POST["email"];
     $cel = $_POST["celular"];
-    $dataNasci = $_POST["data_nascimento"];             
+    $dataNasci = $_POST["data_nascimento"];
     $cep = $_POST["cep"];
     $genero = $_POST["genero"];
     $etnia = $_POST["sua_etnia"];
@@ -15,15 +16,15 @@ include_once "conexao.php";
     $p2 = $_POST["pergunta2"];
     $p3 = $_POST["pergunta3"];
     $p4 = $_POST["pergunta4"];
-    $agenda = $_POST["data_agendamento"];                
-    $hora = $_POST["hora_atendimento"];                 
+    $agenda = $_POST["data_agendamento"];
+    $hora = $_POST["hora_atendimento"];
 
-    #salva os registros da query na tabela desejada
+    //salva os registros da query na tabela desejada
     $sql = "INSERT INTO tb_cadastro (
-        id, 
-        nome, 
-        sobrenome, 
-        email, 
+        id,
+        nome,
+        sobrenome,
+        email,
         celular,
         data_nascimento,
         cep,
@@ -37,12 +38,12 @@ include_once "conexao.php";
         pergunta4,
         data_agendamento,
         hora_atendimento
-        ) 
-    values (
-        null, 
-        '$nome', 
-        '$sobrenome', 
-        '$email', 
+
+        ) values (
+        null,
+        '$nome',
+        '$sobrenome',
+        '$email',
         '$cel',
         '$dataNasci',
         '$cep',
@@ -56,10 +57,9 @@ include_once "conexao.php";
         '$p4',
         '$agenda',
         '$hora'
-        )";
+    )";
 
     mysqli_query($conn,$sql);
     mysqli_close($conn);
     header('Location: http://localhost/vaccination-form');
-
 ?>

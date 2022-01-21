@@ -2,7 +2,7 @@
 <div align="center">  
   <!--Adicionar logotipo do projeto aqui-->
   <div>
-    <a href='#voltar-topo'><img src="IMAGENS/logo-projeto.jpg" alt="Logotipo do projeto" height="140" width="260"></a>
+    <a href='#voltar-topo'><img src="assets/img/logo-projeto.jpg" alt="Logotipo do projeto" height="140" width="260"></a>
   </div><br>
 
   <h1>Formulário de Vacinação</h1>
@@ -14,7 +14,7 @@
 
   <!--Adicionar imagem/gif do projeto aqui-->
   <div style="width:30%">
-    <a href='#voltar-topo'><img src="IMAGENS/tela-inicio-projeto.gif" style="width:100%" alt="Imagem do projeto"></a>   
+    <a href='#voltar-topo'><img src="assets/img/tela-inicio-projeto.gif" style="width:100%" alt="Imagem do projeto"></a>   
   </div><hr>
 </div>
 
