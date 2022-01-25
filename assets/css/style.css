@@ -49,7 +49,7 @@ body {
     margin-left: 22%;
     margin-top: 1%;
     justify-content: center;
-    background-image: url("http://localhost/vaccination-form/assets/img/vacina.jpg");
+    background-image: url(vacina.jpg);
 }
 
 /* Elementos de tags <Select> do campo questionario */
