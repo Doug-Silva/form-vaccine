@@ -18,11 +18,6 @@
   </div><hr>
 </div>
 
-  <!--
-  ## 🚀 Iniciar
-  Escrever aqui>>>
-  -->
-
   ## 🔨 Seja um dos contribuidores<br>
   Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
 
