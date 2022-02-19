@@ -9,7 +9,7 @@
   <p>Formulário online para agendamento de vacinação, desenvolvido em HTML, CSS e JavaScript</p>
 
   <div>
-    <a href="https://github.com/Doug-Silva/vaccination-form/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/react" alt="License MIT"></a>
+    <a href="https://github.com/Doug-Silva/form-vaccine/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/react" alt="License MIT"></a>
   </div><br>
 
   <!--Adicionar imagem/gif do projeto aqui-->
@@ -31,5 +31,7 @@
   - [MySQL](https://dev.mysql.com/downloads/workbench/)
   - [Deployment Heroku](https://www.heroku.com/)
 
-  ## 🔨 Seja um dos contribuidores<br>
+   ## 🔨 Seja um dos contribuidores<br>
   Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
+
+  <a href='#voltar-topo'>⬆ Voltar ao topo</a><br>
