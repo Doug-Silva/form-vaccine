@@ -13,6 +13,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
         <!-- Icone da página -->
         <link rel = "shortcut icon" type = "imagem/x-icon" href = "./favicon.ico"/>
 
@@ -102,7 +105,7 @@
 
         <!-- Div com o botão para voltar a pagina inicial -->
         <div align="center">
-        <a href="http://localhost/vaccination-form" class="btn btn-outline-primary btn-lg">Voltar</a>    
+        <a href="https://form-vaccine.herokuapp.com" class="btn btn-outline-primary btn-lg">Voltar</a>  
         </div>
     </body>
 </html>    
