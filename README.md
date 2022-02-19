@@ -18,7 +18,18 @@
   </div><hr>
 </div>
 
+## 🚀 Iniciar
+
+  - Link da aplicação no Heroku: https://form-vaccine.herokuapp.com
+
+  ## ⚙️ Tecnologias
+
+  As seguintes ferramentas foram utilizadas na construção do projeto:
+
+  - [Visual Studio Code](https://code.visualstudio.com/)
+  - [Bootstrap](https://getbootstrap.com/)
+  - [MySQL](https://dev.mysql.com/downloads/workbench/)
+  - [Deployment Heroku](https://www.heroku.com/)
+
   ## 🔨 Seja um dos contribuidores<br>
   Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
-
-  <a href='#voltar-topo'>⬆ Voltar ao topo</a><br>
