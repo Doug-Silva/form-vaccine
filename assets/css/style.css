@@ -55,7 +55,7 @@ input, select, button {
 .txtbox {
     font-size: 1em;
     height: 45px;
-    width: 320px;
+    width: 260px;
 }
 
 /* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
@@ -71,7 +71,7 @@ input, select, button {
 /* Elementos de classe "campo" */
 .campo {
     margin-bottom: 20px;
-    padding-left: 50px;
+    /* padding-left: 50px; */
 }
 
 /* Elementos de classe "campo" de tag <label> */
@@ -84,7 +84,7 @@ input, select, button {
 /* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
 fieldset.grupo .campo {
     float: left;
-    margin-left: 8.1em;
+    margin-left: 11.5em;
 }
 
 /* Elementos de classe "campo" das tags <input> com atributo text e email*/
@@ -117,10 +117,10 @@ fieldset.grupo .campo {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     position: relative;
     top: 105%;
-    left: 70%;
+    left: 40%;
     margin-top: 80px;
     margin-bottom: 5px;
-    margin-right: -47%;
+    margin-right: -17%;
     transform: translate(-50%, -50%)
 }
 
@@ -135,10 +135,10 @@ fieldset.grupo .campo {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     position: relative;
     top: 105%;
-    left: 70%;
+    left: 60%;
     margin-top: 80px;
     margin-bottom: 5px;
-    margin-right: -47%;
+    margin-left: 2%;
     transform: translate(-50%, -50%)
 }
 
