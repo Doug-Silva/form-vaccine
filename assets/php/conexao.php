@@ -1,8 +1,8 @@
 <?php
-    $servername = "localhost";
-    $database = "cadastro_vacina";
-    $username = "root";
-    $password = "douglas442";
+    $servername = "";
+    $database = "";
+    $username = "";
+    $password = "";
 
     //Criar a conexao
     $conn = mysqli_connect($servername,$username,$password,$database);

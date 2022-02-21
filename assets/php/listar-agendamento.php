@@ -41,7 +41,7 @@
             if(($resultado_usuario) AND ($resultado_usuario->num_rows != 0)){
         ?>
             <!-- Tabela -->
-            <table class="table table-striped table-bordered table-hover">
+            <table class="table table-responsive table-striped table-bordered table-hover">
                 <thead>
                     <tr>
                         <th>ID</th>

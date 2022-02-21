@@ -10,6 +10,12 @@
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
@@ -25,11 +31,17 @@
 
     <body>
         <!-- PHP (Formulário) -->
-        <form class="format" name="formCadastVacina" action="./assets/php/salvar-agendamento.php" method="post">
+        <form class="container format" name="formCadastVacina" action="./assets/php/salvar-agendamento.php" method="post">
 
             <div>
-                <h1 id="titulo">Agendamento de Vacinação COVID-19</h1><br>
-                <h3 class="subtitulo">Complete suas informações</h3><br>
+                <h1 id="titulo">Agendamento de Vacinação COVID-19</h1>
+                <h4 class="subtitulo">Complete suas informações</h4>
+            </div>
+
+            <!-- Div com o botão para abrir a lista de agendamentos -->
+            <div>
+                <a href="./assets/php/listar-agendamento.php" target="_self">
+                <img class="botao3" width="100" height="100" src="./assets/img/busca-lista.ico" alt="Lista"></a>
             </div>
 
             <!-- Campos dados do usuario -->
@@ -45,7 +57,7 @@
                 </div>
 
                 <div class="campo">
-                    <label for="email"><strong>E-mail</strong></label>
+                    <label for="email"><strong>E-Mail</strong></label>
                     <input type="email" class="txtbox" name="email" id="email" placeholder="exemplo@exemplo">
                 </div>
 
@@ -55,13 +67,13 @@
                 </div>
 
                 <div class="campo">
-                    <label for="datNasc"><strong>Data de nascimento</strong></label>
+                    <label for="datNasc"><strong>Data de Nascimento</strong></label>
                     <input type="text" class="txtbox" name="data_nascimento" id="datNasc" placeholder="dd/mm/aaaa">
                 </div>
 
                 <div class="campo">
                     <label for="cep"><strong>CEP</strong></label>
-                    <input type="text" class="txtbox" name="cep" id="cep" placeholder="Insira seu CEP">
+                    <input type="text" class="txtbox" name="cep" id="cep" placeholder="00000-000">
                 </div>
 
                 <div class="campo">
@@ -96,7 +108,7 @@
             </fieldset><br>
 
             <div>
-                <h3 class="subtitulo">Questionário</h3><br>
+                <h4 class="subtitulo">Questionário</h4>
             </div>
 
             <!-- Campos do questionário -->
@@ -108,22 +120,6 @@
                     </label>
                     <label>
                         <input type="radio" name="pergunta1" value="Desempregado"> Atualmente estou desempregado
-                    </label>
-                </div>
-
-                <div class="campo">
-                    <label><strong>Quantas pessoas vivem na sua residência? (Incluindo você)</strong></label>
-                    <label>
-                        <input type="radio" name="pergunta2" value="Moro sozinho" checked> Eu moro sozinho
-                    </label>
-                    <label>
-                        <input type="radio" name="pergunta2" value="2 Pessoas"> 2 Pessoas
-                    </label>
-                    <label>
-                        <input type="radio" name="pergunta2" value="2-5 Pessoas"> 2-5 Pessoas
-                    </label>
-                    <label>
-                        <input type="radio" name="pergunta2" value="Mais de 5 Pessoas"> Mais de 5 Pessoas
                     </label>
                 </div>
 
@@ -146,34 +142,44 @@
                         <input type="radio" name="pergunta4" value="Não"> Não
                     </label>
                 </div>
-            </fieldset><br>
+
+                <div class="campo">
+                    <label><strong>Quantas pessoas vivem na sua residência?</strong></label>
+                    <label>
+                        <input type="radio" name="pergunta2" value="Moro sozinho" checked> Eu moro sozinho
+                    </label>
+                    <label>
+                        <input type="radio" name="pergunta2" value="2 Pessoas"> 2 Pessoas
+                    </label>
+                    <label>
+                        <input type="radio" name="pergunta2" value="2-5 Pessoas"> 2-5 Pessoas
+                    </label>
+                    <label>
+                        <input type="radio" name="pergunta2" value="Mais de 5 Pessoas"> Mais de 5 Pessoas
+                    </label>
+                </div>
+            </fieldset>
 
             <div>
-                <h3 class="subtitulo">Agendamento de Vacinação</h3><br>
+                <h4 class="subtitulo">Agendamento de Vacinação</h4>
             </div>
 
             <!-- Campos do agendamento -->
             <fieldset class="grupo">
                 <div class="campo">
                     <label for="agendamento"><strong>Data do agendamento</strong></label>
-                    <input class="txtbox" type="date" name="data_agendamento" id="agendamento" placeholder="Insira a data">
+                    <input class="txtbox" type="date" name="data_agendamento" id="agendamento">
                 </div>
 
                 <div class="campo">
                     <label for="horaAt"><strong>Horário de atendimento</strong></label>
-                    <input class="txtbox" type="time" name="hora_atendimento" id="horaAt" placeholder="Insira a hora">
+                    <input class="txtbox" type="time" name="hora_atendimento" id="horaAt">
                 </div>
-            </fieldset><br>
+            </fieldset>
 
             <!-- Botão para enviar ou apagar o formulário -->
             <button class="botao1" type="submit" onclick="return validar()">Enviar</button>
             <button class="botao2" type="reset">Apagar</button>
-
-            <!-- Div com o botão para abrir a lista de agendamentos -->
-            <div>
-                <a href="./assets/php/listar-agendamento.php" target="_self">
-                <img class="botao3" width="100" height="100" src="./assets/img/busca-lista.jpg" alt="Lista"></a>
-            </div>
 
         </form>
     </body>
