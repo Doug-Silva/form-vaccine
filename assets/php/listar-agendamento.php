@@ -41,7 +41,7 @@
             if(($resultado_usuario) AND ($resultado_usuario->num_rows != 0)){
         ?>
             <!-- Tabela -->
-            <table class="table table-responsive table-striped table-bordered table-hover">
+            <table class="table table-responsive table-bordered table-hover">
                 <thead>
                     <tr>
                         <th>ID</th>
@@ -105,7 +105,7 @@
 
         <!-- Div com o botão para voltar a pagina inicial -->
         <div align="center">
-        <a href="https://form-vaccine.herokuapp.com" class="btn btn-outline-primary btn-lg">Voltar</a>  
+        <a href="http://localhost/form-vaccine" class="btn btn-outline-primary btn-lg">Voltar</a>  
         </div>
     </body>
 </html>    

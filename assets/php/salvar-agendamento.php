@@ -61,5 +61,5 @@
 
     mysqli_query($conn,$sql);
     mysqli_close($conn);
-    header('Location: https://form-vaccine.herokuapp.com');
+    header('Location: http://localhost/form-vaccine');
 ?>
