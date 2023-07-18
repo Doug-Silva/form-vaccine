@@ -28,10 +28,10 @@
         <div align=center>
             <h4 class="text-primary">Tabela de Agendamento</h4><br>
         </div>
-	    
+
 		<?php
             //Incluindo conexao com o banco de dados
-            include_once "conexao.php";
+            include_once "connection.php";
 
             //Consulta no banco de dados
             $result_usuario = "SELECT * FROM tb_cadastro ORDER BY id DESC";
@@ -63,7 +63,7 @@
                         <th>Hora Atendi.</th>
                     </tr>
                 </thead>
-                    
+
                 <tbody>
 
                     <?php
@@ -96,7 +96,7 @@
 
                 </tbody>
             </table>
-                
+
         <?php
             }else{
                 echo "<div class='alert alert-danger' role='alert'>Nenhum agendamento encontrado!</div>";
@@ -105,7 +105,7 @@
 
         <!-- Div com o botão para voltar a pagina inicial -->
         <div align="center">
-        <a href="http://localhost/form-vaccine" class="btn btn-outline-primary btn-lg">Voltar</a>  
+        <a href="https://vactesttt.netlify.app/" class="btn btn-outline-primary btn-lg">Voltar</a>
         </div>
     </body>
-</html>    
+</html>

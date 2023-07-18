@@ -1,6 +1,6 @@
 <?php
     //incluindo conexao com o banco de dados
-    include_once "conexao.php";
+    include_once "connection.php";
 
     $nome = $_POST["nome"];
     $sobrenome = $_POST["sobrenome"];
@@ -61,5 +61,5 @@
 
     mysqli_query($conn,$sql);
     mysqli_close($conn);
-    header('Location: http://localhost/form-vaccine');
+    header('Location: https://vactesttt.netlify.app');
 ?>
