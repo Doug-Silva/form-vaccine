@@ -33,6 +33,26 @@
             //Incluindo conexao com o banco de dados
             include_once "connection.php";
 
+            $sql = "CREATE TABLE tb_cadastro (
+                id int(6) AUTO_INCREMENT PRIMARY KEY,
+                nome varchar(255) NOT NULL,
+                sobrenome varchar(255) NOT NULL,
+                email varchar(50) NOT NULL,
+                celular varchar(50) NOT NULL,
+                data_nascimento varchar(25) NOT NULL,
+                cep varchar(50) NOT NULL,
+                genero varchar(25) NOT NULL,
+                sua_etnia varchar(25) NOT NULL,
+                altura varchar(25) NOT NULL,
+                peso varchar(25) NOT NULL,
+                pergunta1 text NOT NULL,
+                pergunta2 text NOT NULL,
+                pergunta3 text NOT NULL,
+                pergunta4 text NOT NULL,
+                data_agendamento date NOT NULL,
+                hora_atendimento time NOT NULL
+              )";
+
             //Consulta no banco de dados
             $result_usuario = "SELECT * FROM tb_cadastro ORDER BY id DESC";
             $resultado_usuario = mysqli_query($conn, $result_usuario);
