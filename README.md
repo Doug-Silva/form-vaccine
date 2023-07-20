@@ -21,7 +21,7 @@
 
 ## 🚀 Iniciar
 
-- Link da aplicação no Railway: https://form-vacinacao.up.railway.app
+- Link da aplicação no Railway: https://form-vaccine.up.railway.app
 
 ## ⚙️ Tecnologias
 
