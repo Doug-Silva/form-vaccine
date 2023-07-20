@@ -29,7 +29,7 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 
 - [Visual Studio Code](https://code.visualstudio.com)
 - [Bootstrap](https://getbootstrap.com/)
-- [MySQL Editor](https://www.beekeeperstudio.io)
+- [MySQL](https://dev.mysql.com/downloads/installer)
 - [Deployment Railway](https://railway.app)
 
 ## 🔨 Seja um dos contribuidores<br>
