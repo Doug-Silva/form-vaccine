@@ -61,5 +61,5 @@
 
     mysqli_query($conn,$sql);
     mysqli_close($conn);
-    header('Location: https://form-vacinacao.up.railway.app');
+    header('Location: https://form-vaccine.up.railway.app');
 ?>
